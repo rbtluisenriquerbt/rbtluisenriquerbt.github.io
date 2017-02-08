@@ -10,8 +10,8 @@ function go2Cultura(){
       'slow');
 }
 
-function go2Caracteristicas(){
+function go2About(){
   $('html,body').animate({
-      scrollTop: $("#caracteristicas").offset().top},
+      scrollTop: $("#aboutme").offset().top},
       'slow');
 }
