@@ -4,14 +4,20 @@ function go2Portfolio(){
       'slow');
 }
 
+function go2About(){
+  $('html,body').animate({
+      scrollTop: $("#aboutme").offset().top},
+      'slow');
+}
+
 function go2Awards(){
   $('html,body').animate({
       scrollTop: $("#awards").offset().top},
       'slow');
 }
 
-function go2About(){
+function go2Education(){
   $('html,body').animate({
-      scrollTop: $("#aboutme").offset().top},
+      scrollTop: $("#education").offset().top},
       'slow');
 }
