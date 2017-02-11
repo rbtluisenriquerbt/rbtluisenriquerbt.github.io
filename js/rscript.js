@@ -4,9 +4,9 @@ function go2Portfolio(){
       'slow');
 }
 
-function go2Cultura(){
+function go2Awards(){
   $('html,body').animate({
-      scrollTop: $("#cultura_ricazo").offset().top},
+      scrollTop: $("#awards").offset().top},
       'slow');
 }
 
